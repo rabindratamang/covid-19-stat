@@ -29,7 +29,6 @@ class App extends Component {
       .catch(error => error);
   }
 
-  //map  creates new array object with value from callback
   render() {
     let { stats } = this.state;
     if(!stats) return <h1>Loading ...</h1>
