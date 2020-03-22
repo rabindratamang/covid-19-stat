@@ -11,7 +11,7 @@
     "react-scripts": "3.3.0",
     "recharts": "^1.8.5"
   },
-  "homepage": "https://rabindratamang.github.io/hacker-news",
+  "homepage": "https://rabindratamang.github.io/covid-19-stat",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
