@@ -5,8 +5,10 @@ const Card = ({ stat, title, color }) => {
     <div className="col-md-4">
       <div className="card">
         <div className="card-body">
-          <h4 className={`card-title`}>{title}</h4>
-          <h2 className={`text-${color}`}>{stat.value}</h2>
+          <h1>{title}</h1>
+          <span className={`text-${color}`}>
+            <p>{stat.value}</p>
+          </span>
         </div>
       </div>
     </div>
