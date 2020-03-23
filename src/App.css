@@ -3,9 +3,10 @@
 }
 .card{
   margin: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: rgb(227, 227, 227) 8px 8px 30px, rgb(255, 255, 255) -8px -8px 30px;
   text-align: center;
   border-radius: 10px;
+  border: none;
 }
 
 .card-title{
