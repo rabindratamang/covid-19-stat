@@ -16,12 +16,12 @@ const StatChart = ({stats}) => {
                     data={{
                         datasets: [
                         {
-                            data: [confirmed?.value, activeCases?.value, deaths?.value, recovered?.value],
-                            backgroundColor: ['#0088FE', '#ffc107', '#dc6435', '#3cde61'],
-                            hoverBackgroundColor: ["#469efd", "#fdd660", "#e08663",'#78f194' ],
+                            data: [confirmed?.value, deaths?.value, recovered?.value],
+                            backgroundColor: ['#0088FE', '#dc6435', '#3cde61'],
+                            hoverBackgroundColor: ["#469efd", "#e08663",'#78f194' ],
                         },
                         ],
-                        labels: ["Confirmed", "Active Cases", "Deaths","Recovered"],
+                        labels: ["Confirmed", "Deaths", "Recovered"],
                     }}
                     width={160}
                     height={256}
@@ -37,3 +37,12 @@ const StatChart = ({stats}) => {
 }
 
 export default StatChart;
+
+// datasets: [
+//     {
+//         data: [confirmed?.value, activeCases?.value, deaths?.value, recovered?.value],
+//         backgroundColor: ['#0088FE', '#ffc107', '#dc6435', '#3cde61'],
+//         hoverBackgroundColor: ["#469efd", "#fdd660", "#e08663",'#78f194' ],
+//     },
+//     ],
+//     labels: ["Confirmed", "Active Cases", "Deaths","Recovered"],
