@@ -7,8 +7,6 @@ import Countries from "../Components/Countries/Countries";
 import {PATH_BASE, COUNTRIES_PATH} from "../Components/Utils/Url/Url"
 import Flag from "../Components/Countries/Flag/Flag";
 
-
-
 class App extends Component {
   constructor(props) {
     super(props);
