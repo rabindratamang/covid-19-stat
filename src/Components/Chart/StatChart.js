@@ -9,8 +9,6 @@ const ChartWrapper = styled.div`
 
 const StatChart = ({stats}) => {
     const {confirmed, recovered, deaths} = stats;
-    const activeCases = {value: (confirmed.value - (recovered.value + deaths.value))}
-
     return <ChartWrapper>
                     <Doughnut
                     data={{
@@ -38,6 +36,8 @@ const StatChart = ({stats}) => {
 
 export default StatChart;
 
+
+// const activeCases = {value: (confirmed.value - (recovered.value + deaths.value))}
 // datasets: [
 //     {
 //         data: [confirmed?.value, activeCases?.value, deaths?.value, recovered?.value],

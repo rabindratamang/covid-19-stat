@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
 import "./App.css";
-import Chart from "../Components/Chart/Chart";
 import Cards from "../Components/Cards/Cards.js";
 import Loader from "../Components/Utils/Loader/Loader";
 import Countries from "../Components/Countries/Countries";
@@ -61,7 +60,6 @@ class App extends Component {
           {flag}
           <Cards stats={stats}/>
           <Countries selectedCountry={selectedCountry} countries={countries} onCountrySelect={this.countrySelectHandler}/>
-          {/* <Chart stats={stats}/> */}
           <StatChart stats={stats} />
         </div>
       </Fragment>  
