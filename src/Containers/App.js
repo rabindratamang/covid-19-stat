@@ -6,6 +6,7 @@ import Loader from "../Components/Utils/Loader/Loader";
 import Countries from "../Components/Countries/Countries";
 import {PATH_BASE, COUNTRIES_PATH} from "../Components/Utils/Url/Url"
 import Flag from "../Components/Countries/Flag/Flag";
+import StatChart from "../Components/Chart/StatChart";
 
 class App extends Component {
   constructor(props) {
@@ -60,7 +61,8 @@ class App extends Component {
           {flag}
           <Cards stats={stats}/>
           <Countries selectedCountry={selectedCountry} countries={countries} onCountrySelect={this.countrySelectHandler}/>
-          <Chart stats={stats}/>
+          {/* <Chart stats={stats}/> */}
+          <StatChart stats={stats} />
         </div>
       </Fragment>  
     );
