@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from "react";
 import "./App.css";
-import Chart from "./Chart";
-import Cards from "./Cards";
+import Chart from "../Components/Chart/Chart";
+import Cards from "../Components/Cards/Cards.js";
+import Loader from "../Components/Utils/Loader/Loader";
 
 const PATH_BASE = "https://covid19.mathdro.id/api";
 
@@ -31,7 +32,7 @@ class App extends Component {
 
   render() {
     let { stats } = this.state;
-    if(!stats) return <h1>Loading ...</h1>
+    if(!stats) return <Loader/>
     return (
       <Fragment>  
         <div className="container">
