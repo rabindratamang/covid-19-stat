@@ -24,10 +24,3 @@ const Countries = ({countries, selectedCountry, onCountrySelect}) => {
 } 
 
 export default Countries;
-
-{/* <select className="form-control" id="countrySelect" defaultValue={selectedCountry} onChange={(event)=> onCountrySelect(event)}>
-    <option value="all">All</option>
-    {countries.map((country, index) => {
-        return <option key={index} value={country.iso2}>{country.name}</option>
-    })}
-</select> */}

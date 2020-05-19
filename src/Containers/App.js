@@ -31,17 +31,12 @@ class App extends Component {
 
   countrySelectHandler = (option) => {
     const iso2 = option.value;
-    const isAll = iso2 === 'all';
-    const path =   isAll ? PATH_BASE : `${COUNTRIES_PATH}/${iso2}`; 
+    const path = iso2 === 'all' ? PATH_BASE : `${COUNTRIES_PATH}/${iso2}`; 
     this.setState({stats:null})
     fetch(path)
     .then(response => response.json())
     .then(country => {
-      if(isAll){
-        this.setState({stats: country, selectedCountry: 'all'})
-      } else {
         this.setState({stats: country, selectedCountry: iso2})
-      }
     })
     .catch(error => error)
   }
