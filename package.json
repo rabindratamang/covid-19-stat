@@ -17,7 +17,7 @@
     "recharts": "^1.8.5",
     "styled-components": "^5.1.0"
   },
-  "homepage": "https://rabindratamang.github.io/covid-19-stat",
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
