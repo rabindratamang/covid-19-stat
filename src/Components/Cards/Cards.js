@@ -8,7 +8,7 @@ const Cards = ({stats}) => {
   }
 
   return (
-    <div className="row">
+    <div className="row card-wrapper">
       <Card stat={confirmed} title={"Cofirmed"} color={"primary"}/>
       <Card stat={activeCases} title={"Active Cases"} color={"warning"}/>
       <Card stat={deaths} title={"Deaths"} color={"danger"}/>
