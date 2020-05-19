@@ -1,4 +1,5 @@
 import React from "react";
+import NumberFormat from "react-number-format";
 
 const Card = ({ stat, title, color }) => {
   return (
@@ -7,7 +8,13 @@ const Card = ({ stat, title, color }) => {
         <div className="card-body">
           <h1>{title}</h1>
           <span className={`text-${color}`}>
-            <p>{stat.value}</p>
+            <p>
+              <NumberFormat
+                value={stat?.value}
+                displayType={"text"}
+                thousandSeparator={true}
+              />  
+            </p>
           </span>
         </div>
       </div>
