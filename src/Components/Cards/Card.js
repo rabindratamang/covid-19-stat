@@ -3,7 +3,7 @@ import NumberFormat from "react-number-format";
 
 const Card = ({ stat, title, color }) => {
   return (
-    <div className="col-md-3">
+    <div className="col-6 col-md-6 col-lg-3">
       <div className="card">
         <div className="card-body">
           <h1>{title}</h1>

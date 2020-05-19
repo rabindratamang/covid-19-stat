@@ -26,3 +26,19 @@
 .text-danger{
   color: #dc6435 !important;
 }
+
+@media (min-width: 576px) { 
+  .card-body h1{
+    font-size: 6pt;
+    font-weight: normal;
+    padding: 5px;
+  }
+
+  .card-body span p{
+    font-size: 10pt
+  }
+
+  .card-title{
+    padding: 10px 0;
+  }
+}
