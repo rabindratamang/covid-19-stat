@@ -35,14 +35,3 @@ const StatChart = ({stats}) => {
 }
 
 export default StatChart;
-
-
-// const activeCases = {value: (confirmed.value - (recovered.value + deaths.value))}
-// datasets: [
-//     {
-//         data: [confirmed?.value, activeCases?.value, deaths?.value, recovered?.value],
-//         backgroundColor: ['#0088FE', '#ffc107', '#dc6435', '#3cde61'],
-//         hoverBackgroundColor: ["#469efd", "#fdd660", "#e08663",'#78f194' ],
-//     },
-//     ],
-//     labels: ["Confirmed", "Active Cases", "Deaths","Recovered"],
