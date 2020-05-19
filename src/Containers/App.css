@@ -27,15 +27,15 @@
   color: #dc6435 !important;
 }
 
-@media (min-width: 576px) { 
+@media (max-width: 767.98px) { 
   .card-body h1{
-    font-size: 6pt;
+    font-size: 15pt;
     font-weight: normal;
     padding: 5px;
   }
 
   .card-body span p{
-    font-size: 10pt
+    font-size: 20pt
   }
 
   .card-title{
