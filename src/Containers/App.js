@@ -13,7 +13,7 @@ class App extends Component {
     this.state = {
       stats: null,
       countries: [],
-      selectedCountry: null
+      selectedCountry: 'all'
     };
   }
 
@@ -29,17 +29,16 @@ class App extends Component {
       .catch(error => error)
   }
 
-  countrySelectHandler = (event) => {
-    const iso2 = event.target.value;
+  countrySelectHandler = (option) => {
+    const iso2 = option.value;
     const isAll = iso2 === 'all';
     const path =   isAll ? PATH_BASE : `${COUNTRIES_PATH}/${iso2}`; 
-
     this.setState({stats:null})
     fetch(path)
     .then(response => response.json())
     .then(country => {
       if(isAll){
-        this.setState({stats: country, selectedCountry: null})
+        this.setState({stats: country, selectedCountry: 'all'})
       } else {
         this.setState({stats: country, selectedCountry: iso2})
       }
@@ -52,7 +51,7 @@ class App extends Component {
     let flag = null;
 
     if(!stats) return <Loader/>
-    if(selectedCountry) flag = <Flag country={selectedCountry}/>
+    if( selectedCountry !=='all' ) flag = <Flag country={selectedCountry}/>
 
     return (
       <Fragment>  
