@@ -7,7 +7,7 @@
    />
 </p>
 
-[The Covid Tracker API](https://github.com/mathdroid/covid-19-api) was used for the data source
+[mathdroid covid-19-api](https://github.com/mathdroid/covid-19-api) was used for the data source
 
 
 ## Development
