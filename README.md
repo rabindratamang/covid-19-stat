@@ -10,10 +10,29 @@
 ## Development
 The website is built on [ReactJS](https://reactjs.org/). If you are not familiar with React, we suggest checking out their [excellent documentation](https://reactjs.org/docs).
 
-## Setup
-```
-npm i && npm start
-```
+## Installation
+
+1. Clone the branch
+
+   ```
+   git clone https://github.com/rabindratamang/covid-19-stat.git
+   ```
+
+2. Install dependencies
+
+   ```
+   yarn install
+   ```
+
+    or alternatively
+
+   ```
+   npm install
+   ```
+3. Start
+   ```
+   npm start
+   ```
 
 ## Contribution
 
