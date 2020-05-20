@@ -5,8 +5,12 @@
   <img src="Demo.jpg" 
        width="200" 
    />
+</p>
+
+<p align="center">
   [The Virus Tracker API](https://thevirustracker.com/api) was used for the data source
 </p>
+
 
 ## Development
 The website is built on [ReactJS](https://reactjs.org/). If you are not familiar with React, we suggest checking out their [excellent documentation](https://reactjs.org/docs).
