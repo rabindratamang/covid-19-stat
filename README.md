@@ -1,8 +1,6 @@
 # COVID-19 TRACKER
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
-<p align="center">
-    ![Covid-19 Tracker Demo](Demo.jpg)
-</p>
+![Covid-19 Tracker Demo](Demo.jpg)
 
 <p align="center">
   [The Virus Tracker API](https://thevirustracker.com/api) was used for the data source
