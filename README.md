@@ -1,5 +1,5 @@
 # COVID Tracking Project
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)]
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 <!-- <p align="center">
 <img src="./pub" width="100%">
 </p> -->
