@@ -2,7 +2,6 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 <p align="center">
     ![Covid-19 Tracker Demo](Demo.jpg)
-    ![alt text](Isolated.png "Title")
 </p>
 
 <p align="center">
