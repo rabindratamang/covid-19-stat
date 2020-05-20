@@ -2,7 +2,13 @@
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
 <p align="center">
-  <img src="Demo.jpg" width="300" />
+  <img src="Demo.jpg" 
+       width="300" 
+       style={
+        display: block;
+        margin: 0 auto;
+       }
+   />
   [The Virus Tracker API](https://thevirustracker.com/api) was used for the data source
 </p>
 
