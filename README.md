@@ -5,7 +5,7 @@
      width="200" 
  />
 
-[mathdroid covid-19-api](https://github.com/mathdroid/covid-19-api) was used for the data source
+A simple React web app to track COVID-19 cases. The data used in my project collected from the John Hopkins University CSSE and [mathdroid covid-19-api](https://github.com/mathdroid/covid-19-api).
 
 ## Development
 The website is built on [ReactJS](https://reactjs.org/). If you are not familiar with React, we suggest checking out their [excellent documentation](https://reactjs.org/docs).
