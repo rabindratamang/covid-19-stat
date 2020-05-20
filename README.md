@@ -3,11 +3,7 @@
 
 <p align="center">
   <img src="Demo.jpg" 
-       width="300" 
-       style={
-        display: block;
-        margin: 0 auto;
-       }
+       width="200" 
    />
   [The Virus Tracker API](https://thevirustracker.com/api) was used for the data source
 </p>
