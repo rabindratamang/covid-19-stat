@@ -29,7 +29,7 @@ The website is built on [ReactJS](https://reactjs.org/). If you are not familiar
    ```
    npm install
    ```
-3. Start
+3. Start the project
    ```
    npm start
    ```
