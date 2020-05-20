@@ -1,7 +1,7 @@
 # COVID-19 TRACKER
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 <p align="center">
-    (Screenshot.jpg)
+    !Screenshot.jpg
 </p>
 
 <p align="center">
