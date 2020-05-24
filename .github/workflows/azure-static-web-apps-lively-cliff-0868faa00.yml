@@ -34,7 +34,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: release
-        path: /build
+        path: build
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
