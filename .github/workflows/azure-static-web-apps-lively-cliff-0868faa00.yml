@@ -26,15 +26,15 @@ jobs:
         ###### Repository/Build Configurations - These values can be configured to match you app requirements. ######
         app_location: '/' # App source code path
         api_location: 'api' # Api source code path - optional
-        app_artifact_location: 'build' # Built app content directory - optional
+        app_artifact_location: '' # Built app content directory - optional
         ###### End of Repository/Build Configurations ######
 
-    - name: Publish artifact
+    - name: Publish artifact 
       if: success()
       uses: actions/upload-artifact@v1
       with:
         name: release
-        path: build
+        path: 
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
