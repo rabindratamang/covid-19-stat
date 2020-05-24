@@ -1,6 +1,7 @@
-# COVID-19 TRACKER
+[![Actions Status](https://github.com/rabindratamang/covid-19-stat/workflows/Azure%20Static%20Web%20Apps%20CI/CD/badge.svg)](https://github.com/rabindratamang/covid-19-stat/actions)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)
 
+# COVID-19 TRACKER
 <img src="Demo.jpg" 
      width="200" 
  />
