@@ -29,13 +29,6 @@ jobs:
         app_artifact_location: '' # Built app content directory - optional
         ###### End of Repository/Build Configurations ######
 
-    - name: upload build 
-      if: success()
-      uses: actions/upload-artifact@v1
-      with:
-        name: release
-        path: .
-
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
