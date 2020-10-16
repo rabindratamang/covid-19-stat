@@ -6,6 +6,7 @@ import Countries from "../Components/Countries/Countries";
 import {PATH_BASE, COUNTRIES_PATH} from "../Components/Utils/Url/Url"
 import Flag from "../Components/Countries/Flag/Flag";
 import StatChart from "../Components/Chart/StatChart";
+import Header from "../Components/Header/Header";
 
 class App extends Component {
   constructor(props) {
@@ -50,6 +51,7 @@ class App extends Component {
 
     return (
       <Fragment>  
+        <Header/>
         <div className="container">
           {flag}
           <Cards stats={stats}/>
